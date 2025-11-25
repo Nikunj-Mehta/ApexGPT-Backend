@@ -25,3 +25,10 @@ const connectDB = async() => { // Mongoose: To see this syntax visit mongoose np
     console.log(`Failed to connect with Database ${err}`);
   }
 }
+
+// Just a simple change so that we can see CI/CD
+app.get("/test", async (req, res) => {
+  res.json({
+    msg: "test was successful!"
+  })
+});
