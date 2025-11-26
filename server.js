@@ -29,6 +29,6 @@ const connectDB = async() => { // Mongoose: To see this syntax visit mongoose np
 // Just a simple change so that we can see CI/CD
 app.get("/test", async (req, res) => {
   res.json({
-    msg: "UPDATE: test was successful!"
+    msg: "FINA: UPDATE: test was successful!"
   })
 });
