@@ -12,7 +12,7 @@ app.use(cors());
 
 app.use("/api", chatRoutes); // Whichever request comes that starts with /api, send it to chatRoutes.
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => { // so that the backend can listen to request form anywhere and not only local host
   console.log(`server running on: ${PORT}`);
   connectDB(); // Whenever we are starting the server the second thing we are going to do is connect with db.
 });
