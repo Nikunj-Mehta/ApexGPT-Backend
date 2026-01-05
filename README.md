@@ -2,6 +2,8 @@
 
 - **Description:** Backend API for a simple chat application that stores conversation threads in MongoDB and uses GROQ's chat completions API to generate assistant replies.
 
+🔗 Live Demo: http://ec2-13-60-56-164.eu-north-1.compute.amazonaws.com/
+
 **Features**
 - **Store Chats:** Saves conversation threads and messages in MongoDB (`Thread` model).
 - **Chat Completion:** Sends user messages to GROQ API and stores assistant replies.
